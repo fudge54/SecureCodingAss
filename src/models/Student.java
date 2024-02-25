@@ -1,4 +1,4 @@
-package pattern;
+package models;
 
 public abstract class Student {
     private final String id;

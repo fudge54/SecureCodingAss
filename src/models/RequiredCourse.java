@@ -1,9 +1,9 @@
-package pattern;
+package models;
 
-public class OptionalCourse implements Course {
+public class RequiredCourse implements Course {
     private final String code;
 
-    public OptionalCourse(String code) {
+    public RequiredCourse(String code) {
         this.code = code;
     }
 

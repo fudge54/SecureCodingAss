@@ -1,6 +1,8 @@
-package pattern;
+package registration;
 
 import implementations.GPAVerifier;
+import models.Course;
+import models.Student;
 
 public class RegistrationProxy {
     private final RegistrationService registrationService;

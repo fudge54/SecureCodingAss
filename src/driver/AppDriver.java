@@ -1,11 +1,16 @@
 package driver;
 
 import java.util.Scanner;
+
+import factories.CourseFactory;
+import factories.StudentFactory;
 import implementations.*;
-import pattern.*;
+import models.*;
+import registration.RegistrationProxy;
+import registration.RegistrationService;
 
 
-public class RegistrationApp {
+public class AppDriver {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Validator studentIdValidator = new StudentIDValidator();
