@@ -1,6 +1,6 @@
 package registration;
 
-import implementations.GPAVerifier;
+import checks.GPAVerifier;
 import models.Course;
 import models.Student;
 

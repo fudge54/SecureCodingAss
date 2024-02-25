@@ -1,4 +1,4 @@
-package implementations;
+package checks;
 public class CourseCodeValidator implements Validator {
     @Override
     public boolean validate(String courseCode) {

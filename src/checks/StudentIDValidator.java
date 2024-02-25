@@ -1,4 +1,4 @@
-package implementations;
+package checks;
 public class StudentIDValidator implements Validator {
     @Override
     public boolean validate(String studentId) {
